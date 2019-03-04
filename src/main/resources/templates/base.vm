@@ -42,9 +42,6 @@
 		<link href="$!styleslink/rtl.css" rel="stylesheet">
 		#end
 		<script src="$!scriptslink/globals.js"></script>
-		<script type="text/javascript"
-				src="https://cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_CHTML">
-		</script>
 	</head>
 	<body>
 		<div class="scoold-wrapper">
@@ -324,20 +321,16 @@
 			</div>
 		</div>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/diff_match_patch/20121119/diff_match_patch.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/diff_match_patch/20121119/diff_match_patch.js"></script>
+		<script src="https://cdn.bootcss.com/materialize/1.0.0/js/materialize.min.js"></script>
 		#if ($includeHighlightJS)
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+		<script src="https://cdn.bootcss.com/highlight.js/9.14.2/highlight.min.js"></script>
 		#end
 		<script src="$!scriptslink/simplemde.min.js"></script>
 		<script src="$!scriptslink/scoold.js"></script>
 		#if ($request.getServletPath() == "/signin")
 		<script src="$!scriptslink/signin.js"></script>
-		#end
-		#if ($GOOGLE_ANALYTICS_ID && !$GOOGLE_ANALYTICS_ID.isEmpty())
-		<script src="https://www.googletagmanager.com/gtag/js?id=$!{GOOGLE_ANALYTICS_ID}" async></script>
-		<script src="$!scriptslink/a7s.js"></script>
 		#end
 	</body>
 </html>
