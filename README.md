@@ -548,7 +548,7 @@ This will remove the link to `/feedback` and disable the feature entirely.
 ## LaTeX/MathML support and advanced highlighting
 
 **PRO**
-You can enable this feature by setting `para.mathjax_enabled = true`. Then you can use MathML expressions by surrounding
+You can enable this feature by setting `para.````mathjax_enabled = true`. Then you can use MathML expressions by surrounding
 them with `$$` signs, e.g. `$$ \frac {1}{2} $$` By default, MathJax is disabled.
 
 The Prism syntax highlighter is included and it supports many different languages. You need to specify the language for
