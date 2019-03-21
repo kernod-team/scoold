@@ -138,12 +138,8 @@
 
                     <div class="brand-logo">
                         <a href="$!request.contextPath/">
-                            <img src="$logoUrl" class="scoold-logo" width="$logoWidth" alt="scoold logo">
+                            了然 Kernod
                         </a>
-                    </div>
-
-                    <div class="brand-logo">
-                        了然 Kernod
                     </div>
 
                     <ul class="right hide-on-med-and-down">
