@@ -64,7 +64,7 @@
 <div class="scoold-wrapper">
     <header>
         <div class="${navbarFixedClass}">
-            <nav class="light-blue">
+            <nav class="black" style="background-color: #333333">
                 <div class="nav-wrapper container">
                     <a href="#" data-target="mobile-drawer" class="sidenav-trigger"><i class="fa fa-bars fa-2x"></i></a>
 
